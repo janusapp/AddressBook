@@ -1,0 +1,116 @@
+body { 
+	padding-top: 70px; 
+	padding-bottom: 50px;
+}
+
+.footer {
+	margin-top: 150px;
+	margin-bottom: 0px;
+	text-align: center;	
+	position: fixed;	
+	bottom: 0;
+	font-size: 10px;
+	margin: auto;
+	width: 100%;
+	height: 12px;
+	padding-top: 3px;
+}
+
+.container {
+	padding-top: 5px;
+}
+
+.edit-icon {	
+	font-size: 18px;	
+	display: inline;	
+}
+
+.edit-iconX:after {
+	content: '';		
+}
+
+.inPlaceEditButton {
+	height: 20px;
+	font-size: 10px;
+}
+
+.inPlaceEditInput {
+	width: 940px;
+}
+
+.smallTag {
+	font-size: 10px;
+	color: #476B6B;
+}
+
+#title {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#content {
+	font-size: 12px;
+}
+
+.comment {
+	font-size: 10px;
+	/* background-color: #E2E4E4; */
+	background-color: white;
+	/* color:#3D7A99; */
+	padding: 10px;
+}
+
+.commentMeta {
+	font-size: 10px;	
+	/* background-color: #E2E4E4; */
+	background-color: white;
+	color:#000C18;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+
+.project-switcher {
+	position: relative;
+	top:10px;
+	float: right;
+	padding-right: 70px;
+}
+
+.login-panel {
+	top: 10px;
+	right: 10px;
+	float: right;
+}
+
+.small-info {
+	font-size: 10px;
+}
+
+.separator {
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.issu-title-in-thumb {
+	height:70px;
+	overflow:hidden;
+}
+
+.white-bcg {
+	background-color: white;
+}
+
+.status {
+	margin:1px;
+	cursor:pointer;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+.inactive {
+	display: none;
+}

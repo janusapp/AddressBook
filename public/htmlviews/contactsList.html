@@ -1,0 +1,46 @@
+<div class="container">
+  <h3>Contact list</h3>
+
+  <hr class="separator"/>
+
+  Search: <input ng-model="query">
+    
+  <table>
+    <tr ng-repeat="contact in contacts | filter:query | orderBy:orderProp")>
+      <td>{{contact.name}}</td> 
+      <td>{{contact.surname}}</td> 
+      <td>{{contact.phone}}</td> 
+      <td>{{contact.group}}</td> 
+      <td class="btn-group-small"><button class="btn btn-default" ng-click="editOpen(contact.id)">Edit</button> </th>
+    </tr>
+  </table>
+
+  <hr class="separator"/>
+
+      <div>
+        <script type="text/ng-template" id="newContact.html">           
+
+            <div class="modal-header">
+              <h3>Add new contact</h3>
+            </div>              
+
+            <div ng-include src="'htmlviews/contactEdit.html'"></div>
+              
+        </script>
+        <button class="btn btn-primary" ng-click="createOpen()">Add</button>    
+      </div>
+
+
+      <div>
+        <script type="text/ng-template" id="editContact.html">           
+
+            <div class="modal-header">
+              <h3>Edit contact</h3>
+            </div>  
+            
+            <div ng-include src="'htmlviews/contactEdit.html'"></div>
+
+        </script>      
+      </div>
+
+</div>
